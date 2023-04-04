@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.form-img{
+  width: 384px;
+  height: 216px;
+  object-fit: cover;
+
+}
+
+.TR{
+  background-color: red;
+  color:aliceblue
+}
+
+.light{
+  background-color: bisque;
+  color:#1c1c1c;
+}
+
+.dark{
+  background-color:#1c1c1c ;
+  color:bisque;
+}
+
+.active{
+  color:rgb(252, 242, 157);
+  background-color: rgb(63, 62, 61);
+  border-radius: 10%;
+}
+
+ul{
+  padding:0px
+}
+
+li{
+  list-style-type: none;
+}
+
+.todoapp{
+  min-height: 50vh;
+}
+
+.modal{
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal .modal-inner{
+  padding:15px;
+  color:#1c1c1c;
+  background-color: bisque;
+}

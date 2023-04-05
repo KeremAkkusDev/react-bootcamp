@@ -1,5 +1,5 @@
 import "./App.css";
-import Fetch from './Fetch';
+import Router from "./Router";
 /* 
   import UseState from "./UseState";
   import UseEffect from './UseEffect';
@@ -8,15 +8,15 @@ import Fetch from './Fetch';
   import Memoization from './Memoization-UseCallback';
   import Form from './Form';
   import Context from './Context';
+  import Fetch from './Fetch';
   import ServiceFetch from './Fetch/ServiceFetch';
-  import Router from "./Router"; 
   import Redux from "./Redux";
 */
 
 function App() {
   return (
     <div className="App">
-      <Fetch/>
+      <Router/>
       {/* 
         <UseState/>
         <UseEffect/>
@@ -25,7 +25,7 @@ function App() {
         <Memoization/>
         <Form/>
         <Context/>
-        <Router/>
+        <Fetch/>
         <Redux/> 
       */}
     </div>

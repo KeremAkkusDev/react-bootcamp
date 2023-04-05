@@ -1,8 +1,8 @@
 import "./App.css";
-import UseEffect from './UseEffect';
+import UseRef from './UseRef';
 /* 
   import UseState from "./UseState";
-  import UseRef from './UseRef';
+  import UseEffect from './UseEffect';
   import UseReducer from './UseReducer';
   import Memoization from './Memoization-UseCallback';
   import Form from './Form';
@@ -16,10 +16,10 @@ import UseEffect from './UseEffect';
 function App() {
   return (
     <div className="App">
-      <UseEffect/>
+      <UseRef/>
       {/* 
         <UseState/>
-        <UseRef/>
+        <UseEffect/>
         <UseReducer/>
         <Memoization/>
         <Form/>

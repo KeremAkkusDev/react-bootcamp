@@ -1,11 +1,12 @@
 import "./App.css";
-import Memoization from './Memoization-UseCallback';
+import Form from './Form';
+
 /* 
   import UseState from "./UseState";
   import UseEffect from './UseEffect';
   import UseRef from './UseRef';
   import UseReducer from './UseReducer';
-  import Form from './Form';
+  import Memoization from './Memoization-UseCallback';
   import Context from './Context';
   import Fetch from './Fetch';
   import ServiceFetch from './Fetch/ServiceFetch';
@@ -16,13 +17,13 @@ import Memoization from './Memoization-UseCallback';
 function App() {
   return (
     <div className="App">
-      <Memoization/>
+      <Form/>
       {/* 
         <UseState/>
         <UseEffect/>
         <UseRef/>
         <UseReducer/>
-        <Form/>
+        <Memoization/>
         <Context/>
         <Fetch/>
         <Router/>

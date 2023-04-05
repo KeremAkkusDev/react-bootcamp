@@ -1,5 +1,5 @@
 import "./App.css";
-import Context from './Context';
+import Fetch from './Fetch';
 /* 
   import UseState from "./UseState";
   import UseEffect from './UseEffect';
@@ -7,7 +7,7 @@ import Context from './Context';
   import UseReducer from './UseReducer';
   import Memoization from './Memoization-UseCallback';
   import Form from './Form';
-  import Fetch from './Fetch';
+  import Context from './Context';
   import ServiceFetch from './Fetch/ServiceFetch';
   import Router from "./Router"; 
   import Redux from "./Redux";
@@ -16,7 +16,7 @@ import Context from './Context';
 function App() {
   return (
     <div className="App">
-      <Context/>
+      <Fetch/>
       {/* 
         <UseState/>
         <UseEffect/>
@@ -24,7 +24,7 @@ function App() {
         <UseReducer/>
         <Memoization/>
         <Form/>
-        <Fetch/>
+        <Context/>
         <Router/>
         <Redux/> 
       */}

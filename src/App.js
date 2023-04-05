@@ -1,13 +1,12 @@
 import "./App.css";
-import Form from './Form';
-
+import Context from './Context';
 /* 
   import UseState from "./UseState";
   import UseEffect from './UseEffect';
   import UseRef from './UseRef';
   import UseReducer from './UseReducer';
   import Memoization from './Memoization-UseCallback';
-  import Context from './Context';
+  import Form from './Form';
   import Fetch from './Fetch';
   import ServiceFetch from './Fetch/ServiceFetch';
   import Router from "./Router"; 
@@ -17,14 +16,14 @@ import Form from './Form';
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <Context/>
       {/* 
         <UseState/>
         <UseEffect/>
         <UseRef/>
         <UseReducer/>
         <Memoization/>
-        <Context/>
+        <Form/>
         <Fetch/>
         <Router/>
         <Redux/> 

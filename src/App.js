@@ -1,19 +1,33 @@
 import "./App.css";
-//import UseEffect from './UseEffect/UseEffect';
-//import UseRef from './UseRef/UseRef';
-//import UseReducer from './UseReducer/TodoAppState';
-//import Memoization from './Memoization-UseCallback/Memoization';
-//import Form from './Form/Form';
-//import Context from './Context/Context';
-//import Fetch from './Fetch/Fetch';
-//import ServiceFetch from './Fetch/ServiceFetch';
-//import Router from "./Router/Router";
-import Redux from "./Redux/Redux";
+import UseState from "./UseState";
+/* 
+import UseEffect from './UseEffect';
+  import UseRef from './UseRef';
+  import UseReducer from './UseReducer';
+  import Memoization from './Memoization-UseCallback';
+  import Form from './Form';
+  import Context from './Context';
+  import Fetch from './Fetch';
+  import ServiceFetch from './Fetch/ServiceFetch';
+  import Router from "./Router"; 
+  import Redux from "./Redux";
+*/
 
 function App() {
   return (
     <div className="App">
-      <Redux/>
+      <UseState/>
+      {/* 
+        <UseEffect/>
+        <UseRef/>
+        <UseReducer/>
+        <Memoization/>
+        <Form/>
+        <Context/>
+        <Fetch/>
+        <Router/>
+        <Redux/> 
+      */}
     </div>
   );
 }
